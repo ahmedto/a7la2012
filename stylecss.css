@@ -1,0 +1,606 @@
+﻿
+
+
+::selection {
+background:#B8B9BB;
+color:#5F6366;
+}
+::-moz-selection {
+background:#B8B9BB;
+color:#5F6366;
+}
+::-webkit-selection {
+background:#B8B9BB;
+color:#5F6366;
+}
+.LeftF {
+ float:left;
+}
+
+.RightF {
+ float:right;
+}
+
+.clear {
+ clear: both;
+}
+
+
+
+hr {
+height: 1px;
+width: 95%;
+background-color: #e9e9e9;
+border: 0;
+}
+/* style cn */
+
+#header {
+ background:#5F6366;
+ width:100%;
+ height:82px;
+}
+.logo {
+ float:right;
+ width:180px;
+ height:54px;
+ border: 0px;
+ margin-right: 34px;
+ margin-top: 20px;
+ background-image:url(https://i78.servimg.com/u/f78/17/40/54/42/logo11.png);
+ background-repeat:no-repeat;
+}
+
+.logoo {
+ float:right;
+ width:105px;
+ height:30px;
+ border: 0px;
+ background-image:url(../../dashraoui2013/misc/logoo.png);
+ background-repeat:no-repeat;
+}
+
+
+#loginform {
+ padding-left: 22px;
+ padding-top: 16px;
+ float:left;
+}
+
+#loginform .bginput{
+ border: 1px solid #bdbdbd;
+}
+
+.userfont {
+ font-family: tahoma;
+ font-size: 11px;
+ font-weight: normal;
+ color: #ffffff;
+}
+
+.userfontt {
+ font-family: tahoma;
+ font-size: 11px;
+ font-weight: normal;
+ color: #818A92;
+ padding-bottom: 10px;
+}
+
+.userfontt a {
+ color: #818A92;
+}
+
+.userfontt a:hover {
+ text-decoration: underline;
+}
+
+#blueBar.nph{background-color:#5F6366;height:41px;right:0;position:relative;width:100%;margin-bottom:-12px;z-index:3}
+#blueBar ul{list-style-type:none;margin:0;padding:0}
+#blueBar h1{margin:0;padding:0}
+#blueBar #pageHead.nph{margin:0 auto;width:990px}
+.ptm{padding-top:10px}
+.clearfix:after{clear:both;content:".";display:block;font-size:0;height:0;line-height:0;visibility:hidden}
+.clearfix{zoom:1}
+#pageHead{margin:0 auto;width:980px}
+.fbx #pageHead{margin:0;width:auto}
+#pageLogo{float:right;margin-right:-6px;z-index:5}
+#pageLogo a{background-color:#5F6366;display:block;height:31px;width:103px}
+#pageLogo a:hover,#pageLogo a:focus,#pageLogo a:active{background-color:#7F8386;outline:none}
+.fbJewel{float:right;margin-left:-1px}
+#jewelContainer{float:right;position:relative;z-index:4}
+#jewelContainer .hasNew,#jewelContainer .openToggler{position:relative}
+.fbJewel .jewelCount{background-color:#54585B;border-radius:2px;color:#fff;display:none;font-size: 9px;font-weight:bold;padding-bottom:1px;position:absolute;left:-1px;top:-1px;z-index:101}
+#jewelContainer .hasNew .jewelCount{display:block}
+#jewelContainer .openToggler .jewelCount{display:none}
+.fbJewel .jewelCount span{background-color:#f03d25;border:1px solid #dd3822;border-radius:2px;border-top:0;display:block;padding:1px 1px 0}
+.fbJewel a.jewelButton{display:block;height:31px;text-decoration:none;margin:0 1px;width:24px}
+.fbJewel a.jewelButton:active,.fbJewel a.jewelButton:focus,.fbJewel a.jewelButton:hover{background-color:#7F8386;outline:none;text-decoration:none}
+#jewelContainer .openToggler .jewelButton{background-color:#fff !important;border:1px solid #333;border-bottom:0;height:30px;margin:0}
+#fbRequestsJewel a.jewelButton{background-image:url(../../dashraoui2013/misc/buttons.png);background-repeat:no-repeat;background-position:-164px -269px}
+#fbRequestsJewel a.jewelButton:active,#fbRequestsJewel a.jewelButton:focus,#fbRequestsJewel a.jewelButton:hover{background-image:url(../../dashraoui2013/misc/buttons.png);background-repeat:no-repeat;background-position:-267px -187px}
+#fbMessagesJewel a.jewelButton{background-image:url(../../dashraoui2013/misc/buttons.png);background-repeat:no-repeat;background-position:-114px -269px}
+#fbMessagesJewel a.jewelButton:active,#fbMessagesJewel a.jewelButton:focus,#fbMessagesJewel a.jewelButton:hover{background-image:url(../../dashraoui2013/misc/buttons.png);background-repeat:no-repeat;background-position:-271px -17px}
+#fbNotificationsJewel a.jewelButton{background-image:url(../../dashraoui2013/misc/buttons.png);background-repeat:no-repeat;background-position:-267px -152px}
+#fbNotificationsJewel a.jewelButton:active,#fbNotificationsJewel a.jewelButton:focus,#fbNotificationsJewel a.jewelButton:hover{background-image:url(../../dashraoui2013/misc/buttons.png);background-repeat:no-repeat;background-position:-139px -269px}
+#headNav{background-color:#717679;border:1px solid #7F8890;border-bottom:0;height:30px;margin-right:180px}
+#navSearch{margin:4px 4px 0 0;width:350px}
+#navSearch .uiSearchInput{border:0}
+#navSearch .uiSearchInput input{width:315px}
+#navSearch .uiTypeahead,#navSearch .uiTypeahead .wrap{border-color:#5F6366;z-index:100}
+.uiTypeahead{background:#fff;border:solid #bdc7d8;border-width:1px 0;cursor:default;position:relative}
+.uiTypeahead .wrap{border:solid #bdc7d8;border-width:0 1px}
+.uiSearchInput{background:#fff;border:1px solid #899bc1;border-top-color:#6484b4;display:inline-block}
+.uiSearchInput span{border:0;border-top:1px solid #ededed;display:inline-block;padding:1px 0 2px;position:relative}
+.uiSearchInput input{border:0;border-left:1px solid #e5e5e5;margin:0 5px 0 22px;outline:none;padding:1px 0 2px 5px;width:190px}
+.uiSearchInput button{background-image:url(../../dashraoui2013/misc/buttons.png);background-repeat:no-repeat;background-position:-262px -235px;background-color:#fff;border:0;cursor:pointer;display:block;height:19px;padding:0;position:absolute;left:0;top:0;width:22px}
+.uiTypeahead .innerWrap{overflow:hidden;zoom:1}
+.uiTypeahead .textInput{background-color:transparent;border:0;outline:0;width:100%}
+.mac .uiSearchInput input{padding-bottom:1px !important}
+.inputtext,.inputpassword{border:1px solid #bdc7d8;font-family:tahoma,verdana,arial,sans-serif;font-size: 11px;padding:3px}
+.inputtext,.inputpassword{margin:0;padding-bottom:4px}
+.mac .inputtext,.mac .inputpassword{padding-bottom:3px}
+.DOMControl_placeholder{color:#777}
+ .DOMControl_placeholder{color:#000}
+.hidden_elem{display:none !important}
+.lfloat{float:right}
+.rfloat{float:left}
+#pageNav li{float:left}
+#pageNav a{color:#fff;display:block;display:inline-block;font-weight:bold;height:22px;padding:8px 10px 0 10px;text-decoration:none}
+#pageNav a:hover,#pageNav a:focus,#pageNav a:active{outline:none;background-color:#84888B}
+#navAccount{position:relative}
+#navAccount.openToggler, #navAccount:hover{background-color:#fff;border:1px solid #333;border-bottom:0;margin:-1px -1px 0}
+#navAccount #navAccountLink{padding-left:16px;zoom:1}
+.openToggler #navAccountLink, #navAccount:hover #navAccountLink{background-color:#fff;color:#333;position:relative;z-index:2}
+.openToggler #navAccountLink:hover,.openToggler #navAccountLink:focus,.openToggler #navAccountLink:active, #navAccountLink:hover{background-color:#fff}
+#navAccountLink .accountPulldown{background-image:url(../../dashraoui2013/misc/buttons.png);background-repeat:no-repeat;background-position:-298px -102px;height:4px;right:5px;position:relative;top:-2px;width:7px}
+.openToggler #navAccountLink .dropMenuDivide, #navAccount:hover #navAccountLink .dropMenuDivide{background:#e0e0e0}
+.openToggler #navAccountLink .accountPulldown, #navAccount:hover #navAccountLink .accountPulldown{background-image:url(../../dashraoui2013/misc/buttons.png);background-repeat:no-repeat;background-position:-304px -73px}
+#navAccount ul{background:#fff;border:1px solid #333;border-bottom:2px solid #5F6467;display:none;margin-left:-1px;margin-top:-1px;min-width:200px;padding:10px 0 5px;position:absolute;left:0;top:100%;z-index:1}
+#navAccount.openToggler ul, #navAccount:hover ul{display:block}
+#navAccount ul a,#navAccount ul .logoutButton input{color:#6C7174;display:block;font-weight:normal;height:auto;padding:4px 10px 5px;white-space:nowrap}
+#navAccount ul a:hover,#navAccount ul a:focus,#navAccount ul a:active,#navAccount .logoutButton:hover input,#navAccount .logoutButton input:active,#navAccount .logoutButton input:focus{visibility:visible;background:#686B6E;border-bottom:1px solid #5F6366;border-top:1px solid #5F6366;color:#fff;padding:3px 10px 4px;text-decoration:none}
+#navAccount li{display:block;float:none}
+#navAccountInfo{border-bottom:1px solid #e0e0e0;min-height:82px;position:relative;margin:5px 4px;padding:0 64px 0 6px}
+ul #navAccountInfo a:hover,ul #navAccountInfo a:focus,ul #navAccountInfo a:active{background:none;border:none;color:#5F6366;padding:4px 10px 5px;text-decoration:underline}
+#navAccountInfo #navAccountPic{right:-8px;margin:0;position:absolute;top:-9px}
+#navAccountInfo #navAccountPic img{width:70px;height:70px}
+#navAccount #navAccountName{font-size: 13px;font-weight:bold;margin:0;padding-right:12px !important}
+.sp_1utug9{background-image:url(../../dashraoui2013/misc/buttons.png);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+
+
+.avatar {
+ border:0px;
+}
+
+.fieldset li { font: normal 8pt tahoma; color: #686C6F;}
+
+.smallhr { font: normal 8px tahoma; color: #c0c0c0;}
+
+.copyr {
+ color: #808080;
+ font-family: Tahoma, Arial;
+ font-size: 13px
+ font-weight: normal;
+ text-align: center;
+ float: right;
+}
+
+.sigfieldset { 
+    border: 3px dashed #5F6366; 
+    margin-bottom: 6px; 
+    background-color: #fefefe; 
+    -moz-border-radius: 10px 10px 10px 10px; 
+    border-radius: 10px 10px 10px 10px; 
+    margin-top: 2px; 
+} 
+
+.sigfieldset, .sigfieldset td, .sigfieldset p, .sigfieldset li { font: normal 8pt tahoma; }
+
+/* Header Notification */
+
+.HeadNotif {
+ position: relative;
+ background-color: #F33;
+ -moz-border-radius:4px;
+-webkit-border-radius:4px;
+ border-radius: 4px;
+ color: white;
+ width: 11px;
+ height: 14px;
+ font-size: 11px;
+ font-weight: bold;
+ text-align: center;
+ line-height: 14px;
+ bottom: 30px;
+ right: 14px;
+ padding-right: 1px;
+ padding-left: 1px;
+}
+
+
+
+
+
+
+
+
+/* warning message */
+
+.warn_message {
+ background:#edeff4;
+ border:1px solid #d3dbeb;
+ border-radius:3px;
+ -webkit-border-radius:3px;
+ -moz-border-radius:3px;
+ box-shadow:inset 0 0 1px #fff;
+ -moz-box-shadow:inset 0 0 1px #fff;
+ -webkit-box-shadow:inset 0 0 1px #fff;
+ width:98%;
+ margin-top:10px;
+ margin-left:auto;
+ margin-right:auto;
+ font-size:11px;
+ color:#383838;
+ padding:10px;
+}
+
+.warn_message:hover {
+ background:#D8DFEA;
+}
+
+/* who's online */
+
+.online_message {
+ background:#edeff4;
+ border:1px solid #d3dbeb;
+ border-radius:3px;
+ -webkit-border-radius:3px;
+ -moz-border-radius:3px;
+ box-shadow:inset 0 0 1px #fff;
+ -moz-box-shadow:inset 0 0 1px #fff;
+ -webkit-box-shadow:inset 0 0 1px #fff;
+ width:96%;
+ margin-top:10px;
+ margin-left:auto;
+ margin-right:auto;
+ font-size:12px;
+ color:#383838;
+ padding:10px;
+ line-height:16px;
+}
+
+.online_message:hover {
+ background:#D8DFEA;
+}
+
+.hronline {
+ color:#ffffff;
+ background-color:#ffffff;
+ border: 0;
+ height: 1px;
+}
+
+/* fb like button */
+
+.buttonsP a, .buttonsP button{
+    display:block;
+    float:right;
+    margin:0 4px 0 0;
+    background-color:#edeff5;
+    border:1px solid #d3dbeb;
+    font-family:tahoma;
+    font-size:11px;
+    line-height:130%;
+    text-decoration:none;
+    font-weight:normal;
+    color:#46639c;
+    cursor:pointer;
+    padding:2px 5px 3px 4px; /* Links */
+	-moz-border-radius:3px;-webkit-border-radius:3px;
+	-moz-border-radius:3px;-webkit-border-radius:3px;
+}
+
+button.regular, .buttonsP a.regular{
+    color:#46639c;
+    text-decoration:none;
+
+}
+.buttonsP a.regular:hover, button.regular:hover{
+    background-color:#edeff5;
+    border:1px solid #a1afcf;
+    color:#46639c;
+    text-decoration:none;
+}
+.buttonsP a.regular:active{
+    background-color:#edeff5;
+    border:1px solid #a1afcf;
+    color:#46639c;
+    text-decoration:none;
+}
+
+.buttonsP button img, .buttonsP a img{
+    float:left;
+	margin:2px 3px 0px 1px !important;
+    padding:0;
+    border:none;
+    width:13px;
+    height:12px;
+}
+
+/* cButton */
+
+.cButton{background-image:url(https://i78.servimg.com/u/f78/17/40/54/42/bxbbfk10.png);background-repeat:no-repeat;background-position:0 -245px;background-color:#eee;border:1px solid #999;border-bottom-color:#888;box-shadow:0 1px 0 rgba(0, 0, 0, .1);cursor:pointer;display:-moz-inline-box;display:inline-block;font-size: 14px;font-weight:bold;font-family:MDaira;line-height:18px;padding:1px 5px 1px 5px;text-align:center;text-decoration:none;vertical-align:top;white-space:nowrap}
+.cButton:active{background:#ddd;border-bottom-color:#999;box-shadow:0 1px 0 rgba(0, 0, 0, .05)}
+.cButton .cButtonText,.cButton input{background:none;border:0;color:#333;cursor:pointer;display:-moz-inline-box;display:inline-block;font-family:MDaira;font-size: 14px;font-weight:bold;margin:0;outline:none;padding:1px 0 2px;white-space:nowrap}
+
+.notz {
+ margin: 3px;
+ background-color: #fdfdfd;
+ border: 1px dashed #30ade3;
+ color: #30ade3;
+ font-family: Arial,Helvetica,sans-serif;
+ font-size: 16px;
+ text-align: right;
+ padding: 6px;
+ float: right;
+ font-weight: bold;
+}
+
+.notz:hover{
+ border: 1px dashed #292929;
+ text-decoration: none;
+ color: #292929;
+}
+
+
+/* fb like button */
+
+.likee{font-size:11px;padding-top:2px;width:100%;margin:0}
+.likee .ufiItem{font-size:11px;background-color:#edeff4;border-bottom:1px solid #d2d9e7;margin-top:1px;padding:5px 5px 4px}
+.likee .likeeSpamItem{background-color:#e2e2e2}
+.likee .likeeUnseenItem{border-right:2px solid #a8b2ce;padding-right:3px}
+.likee .ufiNub{margin-bottom:-2px;margin-top:0}
+.likee .ufiNub{background-image:url(../../dashraoui2013/images/buttons/pick.png);background-repeat:no-repeat;background-position:0 0;display:block;height:5px;margin-right:17px;width:9px}
+.uiUfiLikeIcon{background-image:url(../../dashraoui2013/images/buttons/jaime.png);background-repeat:no-repeat;height:13px;width:15px}
+.UIImageBlock_Image{float:right;margin-top:3px;margin-left:5px}
+.UIImageBlock_ICON_Content{padding-top:1px}
+
+/* side list */
+
+.sidelist {padding:0 4px;margin:4px 0;}
+.pcontact_block {position:relative;}
+.pcontact_sub_blockright {margin:2px;padding:8px 0px 0px 0px;background-color:#fefefe;border:1px solid #b7b7b7;top:2px;right:70px;z-index:1;box-shadow: 0 0 8px #bbb;-moz-box-shadow: 0 0 8px #bbb;-webkit-box-shadow: 0 0 8px #bbb;}
+.pspike_left {width:10px;height:21px;background: transparent url('../../dashraoui2013/images/extend_left.gif') no-repeat;position:absolute;top:10px;right:-10px;}
+.phidden_child {display:none;}
+.pvisible_parent:hover>.phidden_child, td.pvisible_parent:hover>.hidden_child {
+display:block;
+position:absolute;
+}
+
+
+
+
+
+
+/* SideBar */
+
+.sidebar {
+ border-left: 1px solid #d9d9d9;
+}
+
+.sidebar td{
+ padding:0px;
+ padding-right:5px;
+}
+
+.sidebarPic img{
+ width: 50px;
+ height: 50px;
+ border: 0px;
+ padding-right:5px;
+ margin-left:-34px;
+}
+
+.sidebarName {
+ font-size: 12px;
+ font-weight:bold;
+ padding-top:-20px;
+}
+
+.sidebarTitles {
+ font-size: 10px;
+ font-family:tahoma,verdana,arial,sans-serif;
+ font-weight:bold;
+ color:#959595;
+ padding:12px 2px 6px 0px;
+ text-align:right;
+}
+
+
+#SideNav {font-size: 12px;font-family:tahoma,verdana,arial,sans-serif;color:#333;line-height:1.28;margin:0;padding:0;text-align:right;direction:rtl;unicode-bidi:embed;width:180px;}
+#SideNav ul{list-style-type:none;margin:0;padding:0px;}
+.uiSideNav .item{color:#333;display:block;border-bottom:1px solid #fff;min-height:17px;line-height:13px;padding:3px 28px 0 8px;text-decoration:none}
+.uiSideNav .item:hover{background-color:#eff2f7;text-decoration:none}
+.uiSideNav .sideNavItem .imgWrap{margin-right:-22px;margin-top:-1px;float:right}
+.iconwelcome{background-image:url(../../dashraoui2013/images/fbicons/1.png);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.iconnews{background-image:url(../../dashraoui2013/images/fbicons/2.png);background-repeat:no-repeat;display:inline-block;height:16px;width:17px}
+.iconmsg{background-image:url(../../dashraoui2013/images/fbicons/3.png);background-repeat:no-repeat;display:inline-block;height:16px;width:17px}
+.iconforums{background-image:url(../../dashraoui2013/images/fbicons/4.png);background-repeat:no-repeat;display:inline-block;height:16px;width:17px}
+.iconfriends{background-image:url(../../dashraoui2013/images/fbicons/5.png);background-repeat:no-repeat;display:inline-block;height:16px;width:17px}
+.iconfriendssearch{background-image:url(../../dashraoui2013/images/fbicons/6.png);background-repeat:no-repeat;display:inline-block;height:16px;width:17px}
+.iconfriendsinvite{background-image:url(../../dashraoui2013/images/fbicons/7.png);background-repeat:no-repeat;display:inline-block;height:16px;width:17px}
+.iconcgames{background-image:url(../../dashraoui2013/images/fbicons/8.png);background-repeat:no-repeat;display:inline-block;height:16px;width:17px}
+.iconcurl{background-image:url(../../dashraoui2013/images/fbicons/9.png);background-repeat:no-repeat;display:inline-block;height:16px;width:17px}
+.iconcapp{background-image:url(../../dashraoui2013/images/fbicons/10.png);background-repeat:no-repeat;display:inline-block;height:16px;width:15px}
+.iconcsms{background-image:url(../../dashraoui2013/images/fbicons/11.png);background-repeat:no-repeat;display:inline-block;height:16px;width:17px}
+.iconcradio{background-image:url(../../dashraoui2013/images/fbicons/12.png);background-repeat:no-repeat;display:inline-block;height:16px;width:17px}
+.iconcps{background-image:url(../../dashraoui2013/images/fbicons/13.png);background-repeat:no-repeat;display:inline-block;height:16px;width:17px}
+.iconsubscription{background-image:url(../../dashraoui2013/images/fbicons/14.png);background-repeat:no-repeat;display:inline-block;height:16px;width:17px}
+.iconfav{background-image:url(../../dashraoui2013/images/fbicons/15.png);background-repeat:no-repeat;display:inline-block;height:16px;width:17px}
+.iconsubscribe{background-image:url(../../dashraoui2013/images/fbicons/16.png);background-repeat:no-repeat;display:inline-block;height:16px;width:17px}
+.iconads{background-image:url(../../dashraoui2013/images/fbicons/17.png);background-repeat:no-repeat;display:inline-block;height:16px;width:17px}
+.iconedit{background-image:url(../../dashraoui2013/misc/usercp_icons/vcard_edit.gif);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.iconsmile{background-image:url(../../dashraoui2013/misc/usercp_icons/emoticon_smile.gif);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.iconpicture{background-image:url(../../dashraoui2013/misc/usercp_icons/picture_empty.gif);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.iconsign{background-image:url(../../dashraoui2013/misc/usercp_icons/page_red.gif);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.iconlock{background-image:url(../../dashraoui2013/misc/usercp_icons/lock.gif);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.iconcog{background-image:url(../../dashraoui2013/misc/usercp_icons/cog.gif);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.iconuserdelete{background-image:url(../../dashraoui2013/misc/usercp_icons/user_delete.gif);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.iconemailopen{background-image:url(../../dashraoui2013/misc/usercp_icons/email_open.gif);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.iconemailadd{background-image:url(../../dashraoui2013/misc/usercp_icons/email_add.gif);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.iconemailgo{background-image:url(../../dashraoui2013/misc/usercp_icons/email_go.gif);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.iconfolderedit{background-image:url(../../dashraoui2013/misc/usercp_icons/folder_edit.gif);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.iconfolderedit{background-image:url(../../dashraoui2013/misc/usercp_icons/folder_edit.gif);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.icontime{background-image:url(../../dashraoui2013/misc/usercp_icons/time.gif);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.iconcoins{background-image:url(../../dashraoui2013/misc/usercp_icons/coins.gif);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.iconattach{background-image:url(../../dashraoui2013/misc/usercp_icons/attach.gif);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.iconpagewhiteget{background-image:url(../../dashraoui2013/misc/usercp_icons/page_white_get.gif);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.iconpagewhitecopy{background-image:url(../../dashraoui2013/misc/usercp_icons/page_white_copy.gif);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.iconvcardadd{background-image:url(../../dashraoui2013/misc/usercp_icons/vcard_add.gif);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.iconreportadd{background-image:url(../../dashraoui2013/misc/usercp_icons/report_add.gif);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.iconpictureadd{background-image:url(../../dashraoui2013/misc/usercp_icons/picture_add.gif);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+
+
+/* Adsens code star */
+
+.adboard {
+ background-color:#f2f2f2;
+ border-top:1px solid #E2E2E2;
+ width:180px;
+ height:24px;
+ margin-bottom:20px;
+}
+
+.adttl {
+ color:#666666;
+ font-weight:bold;
+ font-size:12px;
+}
+
+.adicon {
+ margin-right: 4px;
+ vertical-align:-3px;
+ background-image: url("../../images/ad.png");
+ background-size: auto auto;
+ background-repeat: no-repeat;
+ display: inline-block;
+ height: 15px;
+ width: 16px;
+ border:0;
+}
+
+.adcreat {
+ float:left;
+ font-weight:normal;
+ font-size:12px;
+ margin-left:8px;
+}
+
+.adcnt {
+ padding:4px 10px 4px 0px;
+}
+
+.adsens {
+ width:170px;
+ padding:0 2px 20px 2px;
+}
+
+.adstitle {
+ font-size:11px;
+ font-weight:bold;
+ font-family:tahoma;
+}
+
+.adstitle a{
+ text-decoration:none;
+ color:#5F6366;
+}
+
+.adstitle a:hover{
+ text-decoration:underline;
+ color:#ff0000;
+}
+.adstext {
+ font-size:12px;
+ font-weight:normal;
+ font-family:tahoma;
+ color:#000000;
+ padding:3px 0px 3px 0px;
+}
+
+.adslink {
+ font-size:11px;
+ font-weight:bold;
+ font-family:tahoma;
+ direction:ltr;
+ color:#32AF38;
+ padding-left:4px;
+}
+
+/* checkpoint */
+
+.checkpoint{
+ border-radius:4px;
+ margin-right:auto;
+ margin-left:auto;
+ background-color:#fff;
+ border:1px solid #ccc;
+}
+
+.checkpointtitle{
+ border-bottom:1px solid #aaa;
+ margin-right:20px;
+ margin-left:20px;
+ margin-top:5px;
+ border-color:#ccc;
+}
+
+.checkpointtitle h2 a{
+ color:#1c2a47;
+}
+
+.checkpointtext {
+ padding-right:20px;
+ padding-left:20px;
+ padding-top:30px;
+ margin-bottom:30px;
+ font-size:12px;
+ color:#1c2a47;
+ line-height:18px;
+}
+
+.checkpointthread {
+ padding:0px;
+ font-size:12px;
+ color:#1c2a47;
+ line-height:18px;
+}
+
+.checkpointbottom{
+ border-bottom-left-radius:3px;
+ border-bottom-right-radius:3px;
+ -moz-border-radius:0 3px 3px 0;
+ line-height:18px;
+ padding:8px 10px;
+ background-color:#f2f2f2;
+ border:1px solid #ccc;
+ border-bottom:none;
+ border-right:none;
+ border-left:none;
+}
+
+/* uiButton */
+
+.uiButton a{color:#333333;}
+.uiButton a:hover{text-decoration:none;color:#333333;}
+.uiButtonlink{background-color:#fff;border:1px solid #A6A6A6;cursor:pointer;font-size:14px;font-weight:bold;height:19px;padding:3px 5px 4px 5px;text-align:center;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;}
+.uiButtonlink:active{text-decoration:none;background:#FAFBFD;border-color:#9AA9CA;}
+
+/* Header Float */
+
+.headFloat{
+    height: 41px;
+    width:100%;
+    position:absolute;
+    position:fixed;
+}
