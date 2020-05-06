@@ -607,11 +607,11 @@ position:relative;
 	height:17px;background-repeat:repeat;
 }
 .f-f-right{
-	background-image:url('https://i78.servimg.com/u/f78/17/40/54/42/f-f-le10.gif');
+	background-image:url('https://i78.servimg.com/u/f78/17/40/54/42/f-f-ri10.gif');
 	height:17px;width:40px;background-repeat:no-repeat;float:right;
 }
 .f-f-left{
-	background-image:url('https://i78.servimg.com/u/f78/17/40/54/42/f-f-ri10.gif');
+	background-image:url('https://i78.servimg.com/u/f78/17/40/54/42/f-f-le10.gif');
 	height:17px;width:40px;background-repeat:no-repeat;float:left;
 }
 
