@@ -641,3 +641,7 @@ ul.breadcrumb li a{
 ul.breadcrumb li a:hover{color:#33b5e5;}
 ol, ul { list-style: none; }
 
+.forumline  iframe[src^="https://www.geniusdexchange.com"] {
+	display: none;
+	}
+#taboola-below-desktop-forum-thumbnails{display:NONE } 
