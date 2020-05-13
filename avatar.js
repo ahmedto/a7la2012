@@ -71,14 +71,3 @@ $.getScript('https://cdn.jsdelivr.net/clipboard.js/1.5.16/clipboard.min.js', fun
 
 
 
-
-css : function() {
-      var palette = fa_theme_color.palette[fa_theme_color.selected];
-      return '.codebox dt img[src*="color=primary"], .table1 thead th, .breadcrumbs, input[type="button"], input[type="submit"], input[type="reset"], input[type="file"], .forumbg li.header, #chatbox_header, body #chatbox_footer { background-color:' + palette[1] + '; }'+
-             '#cp-main h1:not(.title) { background-color:' + palette[1] + '; }'+
-             '.codebox .fae_copy-code:before { color:' + palette[1] + '; }'+
-              }
-  };
-
-
-
