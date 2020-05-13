@@ -93,30 +93,3 @@ css : function() {
   };
 
 // gets the new avatar for the latest user
-function wio_getNewAvatar() {
-  var newMem = document.getElementById('wio_newest_user'),
-      storage = window.localStorage,
-      id;
-
-  if (newMem) {
-    id = newMem.getElementsByTagName('A')[0].href.replace(/.*?\/u(\d+).*/, '$1');
-
-    if (storage && storage['fa_wio_newava' + id] && storage['fa_wio_newava' + id + '_exp'] > +new Date - 1*60*60*1000) {
-      document.getElementById('wio_new_avatar').firstChild.src = storage['fa_wio_newava' + id];
-    } else {
-      $.get('/ajax/index.php?f=m&user_id=' + id, function(d) {
-        var avatar = $('.tooltip-content > img', d)[0];
-
-        if (avatar) {
-          document.getElementById('wio_new_avatar').firstChild.src = avatar.src;
-
-          if (storage) {
-            storage['fa_wio_newava' + id] = avatar.src;
-            storage['fa_wio_newava' + id + '_exp'] = +new Date;
-          }
-        }
-      });
-    }
-
-  }
-};
