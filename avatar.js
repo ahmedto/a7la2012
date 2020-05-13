@@ -33,7 +33,7 @@ $.getScript('https://cdn.jsdelivr.net/clipboard.js/1.5.16/clipboard.min.js', fun
         j = a.length;
 
     if (a[0]) {
-      $('head').append('<style type="text/css">.fae_copy-code{float:right;cursor:pointer}.fae_copy-code:before{content:"\\f0ea";font-size:13px;font-family:FontAwesome;text-align:center;color:#69C;background:#FFF;border-radius:100%;display:inline-block;width:19px;height:19px;line-height:19px;margin:-1px 3px 0 3px}.codebox .fae_copy-code:hover:before{color:#EB5}.codebox .fae_copy-code.fae_copied:before{content:"\\f00c";font-weight:700;color:#8B5}</style>');
+      $('head').append('<style type="text/css">dl span.fae_copy-code{float:right;cursor:pointer}dl span.fae_copy-code:before{content:"\\f0ea";font-size:13px;font-family:FontAwesome;text-align:center;color:#69C;background:#FFF;border-radius:100%;display:inline-block;width:19px;height:19px;line-height:19px;margin:-1px 3px 0 3px}dl.codebox  span.fae_copy-code:hover:before{color:#EB5}dl.codebox span.fae_copy-code.fae_copied:before{content:"\\f00c";font-weight:700;color:#8B5}</style>');
 
       for (; i < j; i++) {
         a[i].insertAdjacentHTML('beforeend', '<span class="fae_copy-code">' + fae_copyCode.copy + '</span>');
