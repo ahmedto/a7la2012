@@ -645,3 +645,11 @@ ol, ul { list-style: none; }
 	display: none;
 	}
 #taboola-below-desktop-forum-thumbnails{display:NONE } 
+
+ul.breadcrumb li {
+    font-size: 0px;
+}
+ul.breadcrumb li a{
+    font-size: 14px;
+}
+
