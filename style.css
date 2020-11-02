@@ -650,6 +650,6 @@ ul.breadcrumb li {
     font-size: 0px;
 }
 ul.breadcrumb li a{
-    font-size: 14px;
+font: bold 14px/40px Arial, Helvetica, sans-serif;
 }
 
